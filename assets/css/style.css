@@ -39,6 +39,20 @@ html{
     padding: 2rem;
 }
 
+.mouse_click{
+    position: absolute;
+    bottom: 1rem;
+}
+
+.about{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#about{
+    text-align: center;
+}
+
 .do_details{
     display: none;
 }
