@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.home{
+    background-image: url(/assets/img/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_details h1, h4{
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    margin: 2rem;
+   
+}
+
+.logo img{
+    width: 70px;
+
+}
+
+.welcome{
+    padding: 2rem;
+}
