@@ -15,7 +15,12 @@ html{
     flex-direction: column;
 }
 
-.home_details h1, h4{
+.home_details h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.home_details h1, .more_info{
     color: white;
     text-align: center;
 }
