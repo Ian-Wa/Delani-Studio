@@ -31,3 +31,7 @@ html{
 .welcome{
     padding: 2rem;
 }
+
+.do_details{
+    display: none;
+}
