@@ -44,3 +44,9 @@ html{
  .portfolio_img img{
       width: 100%;
   }
+
+  .form-group input{
+      display: inline-block;
+  }
+
+  
