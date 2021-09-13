@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $("#design_image").click(function(){
+      $("#design_image").slideDown('1500').hide('1000');
+      $("#design_details").show('1500');
+    });
+    $("#design_details").click(function(){
+      $("#design_details").slideUp('1500');
+      $("#design_image").slideDown('1500');
+    });
+  });
+
+  $(document).ready(function(){
+    $("#development_image").click(function(){
+      $("#development_image").slideDown('1500').hide('1000');
+      $("#development_details").show('1500');
+    });
+    $("#development_details").click(function(){
+      $("#development_details").slideUp('1500');
+      $("#development_image").slideDown('1500');
+    });
+  });
+
+  $(document).ready(function(){
+    $("#product_image").click(function(){
+      $("#product_image").slideDown('1500').hide('1000');
+      $("#product_details").show('1500');
+    });
+    $("#product_details").click(function(){
+      $("#product_details").slideUp('1500');
+      $("#product_image").slideDown('1500');
+    });
+  });
