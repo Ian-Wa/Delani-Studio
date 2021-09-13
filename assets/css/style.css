@@ -27,12 +27,10 @@ html{
 
 .logo{
     margin: 2rem;
-   
 }
 
 .logo img{
     width: 70px;
-
 }
 
 .welcome{
@@ -46,21 +44,39 @@ html{
 
 .about{
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 #about{
     text-align: center;
 }
 
+.services{
+    background-image: url(/assets/img/s_image.jpg);
+    padding: 8rem;
+}
+
+.services h2, p{
+    text-align: center;
+}
+
+.services h2{
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+.services p{
+    font-family: 'Roboto', sans-serif;
+}
+
 .do_details{
     display: none;
 }
 
-.col-md-3 img{
+/* .col-md-3 img{
     max-width: 100%;
     max-height: 100%;
-  }
+  } */
 
  .portfolio_img img{
       width: 100%;
