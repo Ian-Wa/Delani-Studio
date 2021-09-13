@@ -94,3 +94,20 @@ $(document).ready(function(){
       $("#overlay8").hide();
     });
   });
+
+  $(document).ready(function(){
+    $("#validate").submit(function(event){
+    
+      var name = $("input#name").val();
+      var email = $("input#email").val();
+    
+      if ($("input#name").val() && $("input#email").val()){
+        alert (name + ", we have received your message. Thank you.We will reach out to you shortly");
+      }
+      else {
+        alert("Please enter your name and email!");
+      }
+      
+    });
+  
+});

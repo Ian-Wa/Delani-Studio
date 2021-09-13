@@ -5,7 +5,7 @@ html{
 }
 
 .home{
-    background-image: url(/assets/img/h_img.jpg);
+    background-image: url("/assets/img/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -52,7 +52,7 @@ html{
 }
 
 .services{
-    background-image: url(/assets/img/s_image.jpg);
+    background-image: url("/assets/img/s_image.jpg");
     padding: 8rem;
 }
 
@@ -129,7 +129,7 @@ html{
 }
 
 .contact{
-    background-image: url(/assets/img/c_image.jpg);
+    background-image: url("/assets/img/c_image.jpg");
     margin-top: 2rem;
     padding: 3rem;
 }
